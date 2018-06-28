@@ -1,0 +1,36 @@
+/*
+Insert any CSS over-ride as desired.
+Otherwise use default Bootstrap values.
+*/
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+.bgimg {
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+}
+
+.mm-footer-padding {
+    padding-top:50px;
+}
+
+.mm-footer-spacing {
+    padding:0% 10% 0% 5%;
+}
+
+.mm-modal {
+    background-color:powderblue;
+}
+
+#general_alert_msg {
+    opacity: 0.6;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+}
